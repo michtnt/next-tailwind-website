@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Global styles **/
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  padding: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer base {
+  a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  footer {
+    @apply flex justify-center items-center w-full h-[100px];
+    border-top: 1px solid #eaeaea;
+  }
+
+  h1 {
+    @apply text-5xl font-extrabold tracking-tighter mt-4;
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  h2 {
+    @apply font-bold tracking-tighter mt-4;
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  h5 {
+    @apply leading-normal;
+    font-size: 1.2rem;
+  }
+
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .listItem {
+    margin: 0 0 1.25rem;
+  }
+
+  .lightText {
+    color: #666;
+  }
+}
+
+@layer components {
+  .social-icons {
+    @apply text-white font-bold py-4 px-4 rounded-full;
+  }
+
+  .code-block {
+    @apply bg-white text-lg;
+    border-radius: 5px;
+    padding: 0.45rem;
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      Liberation Mono,
+      DejaVu Sans Mono,
+      Bitstream Vera Sans Mono,
+      Courier New,
+      monospace;
+  }
+}
