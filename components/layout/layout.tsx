@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const NAME = "Mich";
-export const siteTitle = "Mich's Next.js Sample Website";
+export const siteTitle = "Mich's Next.js Website";
 
 type LayoutProps = {
   children: React.ReactNode;

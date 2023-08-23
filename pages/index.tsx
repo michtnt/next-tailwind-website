@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import { GithubIcon, InstagramIcon, LinkedInIcon } from "../components/icons";
+import { getSortedPostsData } from "../utils/posts";
+import Link from "next/link";
+import Date from "../components/date";
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <div className="min-h-screen pr-2 flex flex-col">
       <Layout home>
@@ -14,9 +17,9 @@ export default function Home() {
         </center>
         <h5>
           Hello, I'm <b>Mich</b>. I'm experimenting on{" "}
-          <a href="https://nextjs.org">Next.js</a> to see what's the hype about
-          and also learning <a href="https://tailwindcss.com/">TailwindCSS</a>{" "}
-          while on it 👀
+          <a href="https://nextjs.org">Next.js</a> since I haven't been on web
+          space for long and also learning{" "}
+          <a href="https://tailwindcss.com/">TailwindCSS</a> while on it 👀
         </h5>
 
         <h5>
@@ -50,6 +53,20 @@ export default function Home() {
             <LinkedInIcon />
           </button>
         </section>
+
+        <section className="pt-px space-y-4">
+          <h3>Blog</h3>
+          <ul className="list-none p-0 m-0">
+            {posts.map(({ id, date, title }) => (
+              <li className="mb-5 flex flex-col" key={id}>
+                <Link href={`/posts/${id}`}>{title}</Link>
+                <small className="text-neutral-400">
+                  <Date dateString={date} />
+                </small>
+              </li>
+            ))}
+          </ul>
+        </section>
       </Layout>
       <footer className="flex justify-center items-center no-underline text-inherit">
         <a
@@ -63,4 +80,13 @@ export default function Home() {
       </footer>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const posts = getSortedPostsData();
+  return {
+    props: {
+      posts,
+    },
+  };
 }
