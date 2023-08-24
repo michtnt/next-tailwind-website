@@ -61,7 +61,7 @@ export default function Layout({ children, home = false }: LayoutProps) {
           </>
         )}
       </header>
-      <main className="space-y-4">{children}</main>
+      <main className="space-y-4 ml-4 sm:ml-0">{children}</main>
       {!home && (
         <div className="mt-12">
           <Link href="/">← Back to home</Link>

@@ -27,7 +27,7 @@ export default function Home({ posts }) {
           watching Twilight as my guilty pleasure. Team Jacob.
         </h5>
 
-        <section className="space-x-4 flex justify-center">
+        <section className="space-x-6 flex justify-center pt-6">
           <button
             type="button"
             data-te-ripple-init
