@@ -23,8 +23,8 @@ I saw the author on Twitter and love the way he explained on many concepts in so
 
 - The Lunar Chronicles by Marissa Meyer
 
-Quite addicted with this book, I'm on to second book which is _Scarlet_. I haven't read sci-fi for long and the first book _Cinder_ is giving _Kowloon Walled City_ x _Cyber Punk_ vibe.
+Quite addicted with this book, I'm on to second book which is _Scarlet_. I haven't read sci-fi books for long and the first book _Cinder_ is giving _Kowloon Walled City_ x _Cyber Punk_ vibe.
 
 - The Decagon House Murders by Yukito Ayatsuji
 
-First time reading mystery book, I love this one, and I've also read the manga version of this, altho I can't guess the killer until the end.
+First time reading mystery book, I love this one, and I've also read the manga version of this, altho I didn't manage to guess the killer even until the end.
