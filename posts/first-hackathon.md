@@ -1,5 +1,5 @@
 ---
-title: "First Hackathon in University"
+title: "First Hackathon in UTS"
 date: "2020-07-04"
 ---
 

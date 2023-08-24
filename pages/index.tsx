@@ -13,7 +13,7 @@ export default function Home({ posts }) {
           <title>{siteTitle}</title>
         </Head>
         <center>
-          <code className="code-block">Software Engineer 👩🏻‍💻</code>
+          <code className="code-block">/三三ᕕ( ᐛ )ᕗ/</code>
         </center>
         <h5>
           Hello, I'm <b>Mich</b>. I'm experimenting on{" "}
@@ -23,35 +23,32 @@ export default function Home({ posts }) {
         </h5>
 
         <h5>
-          Software Engineer. Love travelling and reading sci-fi books. Currently
-          watching Twilight as my guilty pleasure. Team Jacob.
+          Software Engineer. Love travelling, make videos and reading sci-fi
+          books. Also trying to hit the gym regularly.
         </h5>
 
         <section className="space-x-6 flex justify-center pt-6">
-          <button
-            type="button"
-            data-te-ripple-init
-            data-te-ripple-color="light"
+          <a
             className="social-icons bg-slate-700 hover:bg-slate-800"
+            href="https://github.com/michtnt"
+            target="_blank"
           >
             <GithubIcon />
-          </button>
-          <button
-            type="button"
-            data-te-ripple-init
-            data-te-ripple-color="light"
+          </a>
+          <a
+            href="https://instagram.com/tnt.mich"
             className="social-icons bg-pink-600 hover:bg-pink-800"
+            target="_blank"
           >
             <InstagramIcon />
-          </button>
-          <button
-            type="button"
-            data-te-ripple-init
-            data-te-ripple-color="light"
+          </a>
+          <a
+            href="https://www.linkedin.com/in/michelletanoto/"
             className="social-icons bg-sky-700 hover:bg-sky-800"
+            target="_blank"
           >
             <LinkedInIcon />
-          </button>
+          </a>
         </section>
 
         <section className="pt-px space-y-4">
