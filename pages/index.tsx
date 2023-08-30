@@ -70,7 +70,7 @@ export default function Home({ posts }) {
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex justify-center items-center no-underline text-inherit"
+          className="flex justify-center items-center no-underline text-inherit dark:text-white"
         >
           Powered by <img src="/vercel.svg" alt="Vercel" className="ml-2 h-4" />
         </a>
