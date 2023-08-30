@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import ThemeSwitcher from "../theme-switcher";
 
 const NAME = "Mich";
 export const siteTitle = "Mich's Next.js Website";
@@ -28,6 +29,9 @@ export default function Layout({ children, home = false }: LayoutProps) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+      <div className="flex justify-end">
+        <ThemeSwitcher />
+      </div>
       <header className="flex flex-col items-center">
         {home ? (
           <>
