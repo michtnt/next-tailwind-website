@@ -11,7 +11,7 @@ type LayoutProps = {
   home?: boolean;
 };
 
-function Layout({ children, home = false }: LayoutProps) {
+export default function Layout({ children, home = false }: LayoutProps) {
   return (
     <div className="container flex-1 mx-auto max-w-xl pr-4 mt-12 mr-auto mb-24 space-y-4">
       <Head>
