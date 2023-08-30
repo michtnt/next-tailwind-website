@@ -25,7 +25,7 @@ const useLocalStorage = (key: string, initialValue = "") => {
     }
   };
 
-  return [state, setValue];
+  return [state, setValue] as const;
 };
 
 export default useLocalStorage;
