@@ -16,7 +16,7 @@ export default function Home({ posts }) {
           <code className="code-block">/三三ᕕ( ᐛ )ᕗ/</code>
         </center>
         <h5>
-          Hello, I'm <b>Michelle</b>. Software Engineer. Focused on (not limited to) user experience, distributed and inter-connected systems, system architecture and solution design.
+          Hello, I'm <b>Michelle</b>. Software Engineer. Focused on (not limited to) product design, quality engineering, user experience, distributed systems and solution design.
         </h5>
 
         <h5>
