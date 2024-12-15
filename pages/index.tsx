@@ -16,15 +16,11 @@ export default function Home({ posts }) {
           <code className="code-block">/三三ᕕ( ᐛ )ᕗ/</code>
         </center>
         <h5>
-          Hello, I'm <b>Mich</b>. I'm experimenting on{" "}
-          <a href="https://nextjs.org">Next.js</a> since I haven't been on web
-          space for long and also learning{" "}
-          <a href="https://tailwindcss.com/">TailwindCSS</a> while on it 👀
+          Hello, I'm <b>Michelle</b>. Software Engineer. Passionate in my field not limited to user experience, data science, artificial intelligence and cyber security.
         </h5>
 
         <h5>
-          Software Engineer. Love travelling, make videos and reading sci-fi
-          books. Also trying to hit the gym regularly.
+          I love to experience new things, travel, videography, writing and I try my best to go exercise regularly.
         </h5>
 
         <section className="space-x-6 flex justify-center pt-6">
