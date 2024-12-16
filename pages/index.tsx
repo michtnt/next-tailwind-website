@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         </h5>
 
          <center>
-           <h5>🇦🇺🇹🇭🇮🇩🇳🇿🇲🇾🇸🇬🇭🇰</h5>
+           <h5>📍🇦🇺🇹🇭🇮🇩🇳🇿🇲🇾🇸🇬🇭🇰</h5>
          </center>
 
         <section className="space-x-6 flex justify-center pt-6">
