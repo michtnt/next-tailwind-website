@@ -16,12 +16,14 @@ export default function Home({ posts }) {
           <code className="code-block">/三三ᕕ( ᐛ )ᕗ/</code>
         </center>
         <h5>
-          Hello, I'm <b>Michelle</b>. Software Engineer. Focused on (not limited to) product design, quality engineering, user experience, distributed systems and solution design.
+          Hello, I'm <b>Michelle</b>. Currently Australian-based. Software Engineer. Focused on (not limited to) product design, quality engineering, user experience, distributed systems and solution design.
         </h5>
 
         <h5>
           I love to experience new things, travel, videography, writing and I try my best to go exercise regularly.
         </h5>
+
+        <h5>🇦🇺🇹🇭🇮🇩🇳🇿🇲🇾🇸🇬🇭🇰</h5>
 
         <section className="space-x-6 flex justify-center pt-6">
           <a
