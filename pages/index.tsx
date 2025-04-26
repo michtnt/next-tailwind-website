@@ -1,9 +1,10 @@
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
-import { GithubIcon, InstagramIcon, LinkedInIcon } from "../components/icons";
-import { getSortedPostsData } from "../utils/posts";
-import Link from "next/link";
-import Date from "../components/date";
+import Head from 'next/head';
+import Layout, { siteTitle } from '../components/layout';
+import { GithubIcon, LinkedInIcon } from '../components/icons';
+import { getSortedPostsData } from '../utils/posts';
+import Link from 'next/link';
+import Date from '../components/date';
+import MediumIcon from '../components/icons/MediumIcon';
 
 export default function Home({ posts }) {
   return (
@@ -12,20 +13,22 @@ export default function Home({ posts }) {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <center>
+        {/* <center>
           <code className="code-block">/三三ᕕ( ᐛ )ᕗ/</code>
+        </center> */}
+        <h5>
+          Hello, I'm <b>Michelle</b>. Australian-based Software Engineer. I
+          enjoy building things that helps to make human life easier.
+        </h5>
+
+        <h5>
+          I love to experience new things, travel, videography, writing and I
+          try my best to go exercise regularly.
+        </h5>
+
+        <center>
+          <h5>📍🇦🇺🇯🇵🇹🇭🇮🇩🇳🇿🇲🇾🇸🇬🇭🇰</h5>
         </center>
-        <h5>
-          Hello, I'm <b>Michelle</b>. Currently Australian-based. Software Engineer. Focused on (not limited to) product design, quality engineering, user experience, distributed systems and solution design.
-        </h5>
-
-        <h5>
-          I love to experience new things, travel, videography, writing and I try my best to go exercise regularly.
-        </h5>
-
-         <center>
-           <h5>📍🇦🇺🇯🇵🇹🇭🇮🇩🇳🇿🇲🇾🇸🇬🇭🇰</h5>
-         </center>
 
         <section className="space-x-6 flex justify-center pt-6">
           <a
@@ -36,18 +39,18 @@ export default function Home({ posts }) {
             <GithubIcon />
           </a>
           <a
-            href="https://instagram.com/tnt.mich"
-            className="social-icons bg-pink-600 hover:bg-pink-800"
-            target="_blank"
-          >
-            <InstagramIcon />
-          </a>
-          <a
             href="https://www.linkedin.com/in/michelletanoto/"
             className="social-icons bg-sky-700 hover:bg-sky-800"
             target="_blank"
           >
             <LinkedInIcon />
+          </a>
+          <a
+            href="https://michelletanoto.medium.com/"
+            className="social-icons bg-zinc-700 hover:bg-zinc-800"
+            target="_blank"
+          >
+            <MediumIcon />
           </a>
         </section>
 
@@ -65,16 +68,16 @@ export default function Home({ posts }) {
           </ul>
         </section>
       </Layout>
-      <footer className="flex justify-center items-center no-underline text-inherit">
+      {/* <footer className="flex justify-center items-center no-underline text-inherit">
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
           className="flex justify-center items-center no-underline text-inherit dark:text-white"
         >
-          Powered by <img src="/vercel.svg" alt="Vercel" className="ml-2 h-4" />
+          More blogs entry could be found in Medium :)
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }
