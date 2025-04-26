@@ -4,7 +4,9 @@ module.exports = async (phase, { defaultConfig }) => {
    */
   const nextConfig = {
     /* config options here */
-    optimizeCss: true, // enabling this will enable SSR for Tailwind
+    experimental: {
+      optimizeCss: true, // enabling this will enable SSR for Tailwind
+    },
   };
   return nextConfig;
 };
