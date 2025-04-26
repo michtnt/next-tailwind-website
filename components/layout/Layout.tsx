@@ -41,7 +41,6 @@ export default function Layout({ children, home = false }: LayoutProps) {
               className="rounded-full"
               height={150}
               width={150}
-              objectFit="cover"
               alt="profile-image"
             />
             <h1>{NAME}</h1>
@@ -55,7 +54,6 @@ export default function Layout({ children, home = false }: LayoutProps) {
                 className="rounded-full"
                 height={150}
                 width={150}
-                objectFit="cover"
                 alt="profile-image"
               />
             </Link>
